@@ -1,0 +1,21 @@
+.carousel-container {
+  margin: 0 auto;
+  width: 650px;
+  display: flex;
+}
+
+.carousel {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.slider {
+  display: flex;
+  scroll-behavior: smooth;
+  position: relative;
+  left: 0;
+}
+
+img {
+  display: block;
+}
